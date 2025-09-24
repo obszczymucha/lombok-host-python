@@ -6,6 +6,7 @@ stderr() {
 
 setup_venv() {
   if [[ -d ".venv" ]]; then
+    source .venv/bin/activate
     return
   fi
 
